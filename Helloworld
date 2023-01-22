@@ -1,0 +1,6 @@
+def display(arg):
+    print(arg)
+    return
+
+txt = 'hello world!'
+display(txt)
