@@ -1,6 +1,12 @@
-def display(arg):
-    print(arg)
-    return
+# python 3.11
 
-txt = 'hello world!'
-display(txt)
+text = 'Python'
+x = 0
+
+for i in text:
+    x = x + 1
+    print(text[:x])
+
+for i in text:
+    x = x - 1
+    print(text[:x])
